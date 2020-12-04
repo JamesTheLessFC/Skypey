@@ -1,6 +1,15 @@
-# Getting Started with Create React App
+# Skypey: a skype-like app built with React & Redux
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+A completed [tutorial](https://www.freecodecamp.org/news/understanding-redux-the-worlds-easiest-guide-to-beginning-redux-c695f45546f6/) from the author Emmanuel Ohans.
+
+At the end of the tutorial, the author leaves us with two uncompleted tasks:
+
+1. Extend the Skypey app to handle editing a user's message
+2. Extend the Skypey app to handle the deletion of a user's message
+
+Both of these additional exercises have been completed.
 
 ## Available Scripts
 

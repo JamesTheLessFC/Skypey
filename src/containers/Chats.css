@@ -1,0 +1,60 @@
+.Chats {
+  flex: 1 1 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 85%;
+  margin: 0 auto;
+  overflow-y: scroll;
+}
+.Chat {
+  margin: 1rem 0;
+  color: #fff;
+  padding: 1rem;
+  background: linear-gradient(90deg, #1986d8, #7b9cc2);
+  max-width: 90%;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  text-align: left;
+}
+.Chat.is-user-msg {
+  margin-left: auto;
+  background: #2b2c33;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  text-indent: -2em;
+}
+.delete {
+  cursor: pointer;
+  position: relative;
+  top: -1.5em;
+  left: .5em;
+  visibility: hidden;
+}
+.Chat.is-user-msg:hover > .delete {
+  visibility: visible;
+}
+.delete:hover {
+  color: #1986d8;
+}
+.edit {
+  cursor: pointer;
+  position: relative;
+  top: -1.5em;
+  left: 1em;
+  visibility: hidden;
+}
+.edit:hover {
+  color: #1986d8;
+}
+.Chat.is-user-msg:hover > .edit {
+  visibility: visible;
+}
+
+@media (min-width: 576px) {
+  .Chat {
+    max-width: 60%;
+  }
+}
